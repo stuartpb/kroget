@@ -1,0 +1,31 @@
+{
+  "name": "kroget",
+  "version": "0.0.0",
+  "description": "A service for automating coupon downloads for Kroger grocery outlets",
+  "main": "app.js",
+  "scripts": {
+    "start": "envigorate",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stuartpb/kroget.git"
+  },
+  "author": "Stuart P. Bentley <stuart@testtrack4.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stuartpb/kroget/issues"
+  },
+  "homepage": "https://github.com/stuartpb/kroget",
+  "dependencies": {
+    "envigor": "^0.8.1",
+    "express": "^4.11.1",
+    "jade": "^1.9.1",
+    "request": "^2.51.0",
+    "rethinkdb": "^1.15.0"
+  },
+  "engines": {
+    "iojs": "1.0.x",
+    "node": "0.10.x"
+  }
+}

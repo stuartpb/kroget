@@ -1,0 +1,9 @@
+extend layout
+
+block content
+  if new Date().getDay() == 5
+    h1 It's Friday
+    p: a(href="https://kroger.softcoin.com/programs/kroger/freefri/")
+      | gotta get down
+  else
+    h1 Come back Friday
